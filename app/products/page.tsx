@@ -3,6 +3,7 @@ import ProductsHero from "@/components/sections/ProductsHero";
 import ProductsGrid from "@/components/sections/ProductsGrid";
 import CustomPlatforms from "@/components/sections/CustomPlatforms";
 import AIAutomations from "@/components/sections/AIAutomations";
+import BeamDivider from "@/components/fx/BeamDivider";
 
 export const metadata: Metadata = {
   title: "Products — Trinodus Technologies",
@@ -14,8 +15,10 @@ export default function ProductsPage() {
   return (
     <>
       <ProductsHero />
+      <BeamDivider />
       <ProductsGrid />
       <CustomPlatforms />
+      <BeamDivider />
       <AIAutomations />
     </>
   );

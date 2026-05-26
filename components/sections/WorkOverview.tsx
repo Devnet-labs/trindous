@@ -6,6 +6,8 @@ import { ArrowRight, Check, LayoutGrid } from "lucide-react";
 import { products } from "@/lib/products";
 import ProductIcon from "../ProductIcon";
 import Reveal, { Stagger, StaggerItem } from "../Reveal";
+import Tilt from "../fx/Tilt";
+import Spotlight from "../fx/Spotlight";
 
 // Show a curated subset on the homepage — the rest live on /products.
 const featuredSlugs = ["taskflow-pro", "commercecore", "smarthotel-suite"];
@@ -43,11 +45,13 @@ export default function WorkOverview() {
         <Stagger className="mt-12 grid gap-6 md:grid-cols-3" step={0.08}>
           {featured.map((p) => (
             <StaggerItem key={p.slug}>
+              <Tilt className="h-full">
               <motion.article
                 whileHover={{ y: -8 }}
                 transition={{ type: "spring", stiffness: 280, damping: 22 }}
                 className="group relative flex h-full flex-col overflow-hidden rounded-3xl border border-navy-100 bg-white shadow-soft transition hover:border-teal-500/40 hover:shadow-glow"
               >
+                <Spotlight color="rgba(23,184,196,0.10)" size={360} />
                 <div className={`relative h-28 bg-gradient-to-br ${p.accent}`}>
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(255,255,255,0.45),transparent_55%)]" />
                   <motion.div
@@ -85,6 +89,7 @@ export default function WorkOverview() {
                   </Link>
                 </div>
               </motion.article>
+              </Tilt>
             </StaggerItem>
           ))}
         </Stagger>

@@ -6,6 +6,7 @@ import { products } from "@/lib/products";
 import ProductIcon from "../ProductIcon";
 import Reveal, { Stagger, StaggerItem } from "../Reveal";
 import Spotlight from "../fx/Spotlight";
+import Tilt from "../fx/Tilt";
 
 export default function ProductsGrid() {
   return (
@@ -32,6 +33,7 @@ export default function ProductsGrid() {
         <Stagger className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3" step={0.06}>
           {products.map((p) => (
             <StaggerItem key={p.slug}>
+              <Tilt className="h-full">
               <motion.article
                 whileHover={{ y: -8 }}
                 transition={{ type: "spring", stiffness: 280, damping: 22 }}
@@ -88,6 +90,7 @@ export default function ProductsGrid() {
                   </a>
                 </div>
               </motion.article>
+              </Tilt>
             </StaggerItem>
           ))}
         </Stagger>

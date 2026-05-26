@@ -50,7 +50,7 @@ export default function AIAutomations() {
   }, []);
 
   return (
-    <section id="ai-automations" className="relative overflow-hidden bg-navy-50/60 py-20 md:py-28">
+    <section id="ai-automations" className="relative overflow-hidden bg-white/40 py-20 backdrop-blur md:py-28">
       <div className="container-px">
         <Reveal>
           <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">

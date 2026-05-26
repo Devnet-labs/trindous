@@ -34,7 +34,7 @@ function DarkPill({ children }: { children: React.ReactNode }) {
 
 export default function TechMarquee() {
   return (
-    <section className="relative overflow-hidden border-y border-navy-100 bg-navy-50/50 py-12">
+    <section className="relative overflow-hidden border-y border-navy-100/50 bg-white/40 py-12 backdrop-blur">
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}

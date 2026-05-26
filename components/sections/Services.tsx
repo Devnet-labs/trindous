@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Code2, LayoutTemplate, RefreshCw, ArrowRight } from "lucide-react";
 import Reveal, { Stagger, StaggerItem } from "../Reveal";
+import Tilt from "../fx/Tilt";
 
 const services = [
   {
@@ -27,7 +28,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="relative bg-navy-50/60 py-20 md:py-28">
+    <section id="services" className="relative bg-white/40 py-20 backdrop-blur md:py-28">
       <div className="container-px">
         <Reveal>
           <div className="max-w-2xl">
@@ -44,6 +45,7 @@ export default function Services() {
         <Stagger className="mt-12 grid gap-6 md:grid-cols-3">
           {services.map((s) => (
             <StaggerItem key={s.title}>
+              <Tilt className="h-full">
               <motion.article
                 whileHover={{ y: -8 }}
                 transition={{ type: "spring", stiffness: 300, damping: 22 }}
@@ -78,6 +80,7 @@ export default function Services() {
                   />
                 </a>
               </motion.article>
+              </Tilt>
             </StaggerItem>
           ))}
         </Stagger>

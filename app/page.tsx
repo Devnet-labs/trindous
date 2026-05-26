@@ -8,6 +8,7 @@ import Redevelopment from "@/components/sections/Redevelopment";
 import Process from "@/components/sections/Process";
 import WhyUs from "@/components/sections/WhyUs";
 import Contact from "@/components/sections/Contact";
+import BeamDivider from "@/components/fx/BeamDivider";
 
 export default function HomePage() {
   return (
@@ -16,11 +17,15 @@ export default function HomePage() {
       <Stats />
       <TechMarquee />
       <About />
+      <BeamDivider />
       <Services />
+      <BeamDivider />
       <WorkOverview />
       <Redevelopment />
+      <BeamDivider />
       <Process />
       <WhyUs />
+      <BeamDivider />
       <Contact />
     </>
   );

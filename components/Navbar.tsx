@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
+import { motion } from "framer-motion";
 import Logo from "./Logo";
 
 const links = [
@@ -27,25 +28,23 @@ export default function Navbar() {
     <header
       className={`sticky top-0 z-50 transition ${
         scrolled
-          ? "border-b border-navy-100 bg-white/85 backdrop-blur"
+          ? "border-b border-navy-100/50 bg-white/70 backdrop-blur-xl"
           : "bg-transparent"
       }`}
     >
       <div className="container-px flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
-          <Logo className="h-9 w-9" />
-          <span className="font-display text-lg font-bold tracking-tight text-navy-900">
+          <motion.span whileHover={{ rotate: 12, scale: 1.08 }} transition={{ type: "spring", stiffness: 300 }}>
+            <Logo className="h-9 w-9" />
+          </motion.span>
+          <span className="font-display text-lg font-bold tracking-tight text-black">
             Trinodus<span className="text-teal-500">.</span>
           </span>
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">
           {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="text-sm font-medium text-navy-700 transition hover:text-teal-600"
-            >
+            <a key={l.href} href={l.href} className="nav-link">
               {l.label}
             </a>
           ))}
