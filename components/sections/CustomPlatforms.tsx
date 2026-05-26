@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import { Wand2, Layers, Rocket, Puzzle, ArrowRight } from "lucide-react";
 import Reveal, { Stagger, StaggerItem } from "../Reveal";
+import Spotlight from "../fx/Spotlight";
+import Particles from "../fx/Particles";
 
 const points = [
   {
@@ -31,6 +33,22 @@ export default function CustomPlatforms() {
   return (
     <section className="relative overflow-hidden py-20 md:py-28">
       <div className="absolute inset-0 -z-10 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-950" />
+      {/* Animated grid backdrop */}
+      <div
+        aria-hidden
+        className="pointer-events-none absolute inset-0 -z-10 opacity-[0.12]"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, rgba(255,255,255,0.5) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,0.5) 1px, transparent 1px)",
+          backgroundSize: "48px 48px",
+          maskImage:
+            "radial-gradient(ellipse 80% 60% at 50% 50%, #000 30%, transparent 80%)",
+          WebkitMaskImage:
+            "radial-gradient(ellipse 80% 60% at 50% 50%, #000 30%, transparent 80%)",
+        }}
+      />
+      <Particles count={28} color="#3dd0d9" className="-z-10" />
+      <Spotlight color="rgba(61,208,217,0.20)" size={620} />
       <motion.div
         aria-hidden
         className="absolute -left-32 top-10 -z-10 h-72 w-72 rounded-full bg-teal-500/25 blur-3xl"

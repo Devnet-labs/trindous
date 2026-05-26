@@ -3,6 +3,8 @@
 import { motion, useReducedMotion } from "framer-motion";
 import { ArrowRight, Sparkles } from "lucide-react";
 import Logo from "../Logo";
+import AnimatedGrid from "../fx/AnimatedGrid";
+import Particles from "../fx/Particles";
 
 export default function Hero() {
   const reduce = useReducedMotion();
@@ -16,6 +18,8 @@ export default function Hero() {
     <section id="home" className="relative overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-hero-radial" />
       <div className="absolute inset-x-0 top-0 -z-10 h-[520px] bg-gradient-to-b from-navy-50/70 to-transparent" />
+      <AnimatedGrid className="-z-10" />
+      <Particles count={18} className="-z-10" />
 
       {/* Floating gradient orbs */}
       <motion.div

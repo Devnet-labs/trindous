@@ -2,6 +2,8 @@
 
 import { motion, useReducedMotion } from "framer-motion";
 import { Sparkles, ArrowRight } from "lucide-react";
+import AnimatedGrid from "../fx/AnimatedGrid";
+import Particles from "../fx/Particles";
 
 export default function ProductsHero() {
   const reduce = useReducedMotion();
@@ -9,6 +11,8 @@ export default function ProductsHero() {
     <section className="relative overflow-hidden">
       <div className="absolute inset-0 -z-10 bg-hero-radial" />
       <div className="absolute inset-x-0 top-0 -z-10 h-[460px] bg-gradient-to-b from-navy-50/70 to-transparent" />
+      <AnimatedGrid className="-z-10" />
+      <Particles count={18} className="-z-10" />
 
       <motion.div
         aria-hidden
