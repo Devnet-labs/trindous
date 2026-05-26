@@ -1,25 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
 
 export const metadata: Metadata = {
-  title: "Trinodus Technologies — Web Development & Redesign for Australian Businesses",
+  title: "Trinodus Technologies — Web Studio & Custom Platforms",
   description:
-    "Trinodus Technologies builds fast, modern websites and revives outdated ones. Web development, landing pages, and website redevelopment for growing Australian businesses.",
-  keywords: [
-    "web development Australia",
-    "landing page design",
-    "website redesign",
-    "Next.js developer",
-    "small business website",
-  ],
+    "Trinodus Technologies is an Australian web studio crafting striking and unforgettable digital experiences. Web development, landing pages, website redevelopment, AI automations, and custom platforms.",
   metadataBase: new URL("https://trinodus.com.au"),
   openGraph: {
     title: "Trinodus Technologies",
-    description:
-      "Modern websites and website redevelopment for Australian businesses.",
+    description: "An Australian web studio crafting striking and unforgettable digital experiences.",
     type: "website",
   },
 };
@@ -27,9 +18,8 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>
+      <body style={{ overflowX: "clip" }}>
         <ScrollProgress />
-        <Navbar />
         <main>{children}</main>
         <Footer />
       </body>

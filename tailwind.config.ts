@@ -5,6 +5,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        ink: "#0c0c0c",
+        mist: "#d7e2ea",
         navy: {
           50: "#f1f5fa",
           100: "#dde7f1",
@@ -26,12 +28,14 @@ const config: Config = {
         accent: "#1a73a8",
       },
       fontFamily: {
-        sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
-        display: ["Space Grotesk", "Inter", "sans-serif"],
+        sans: ["Kanit", "ui-sans-serif", "system-ui", "sans-serif"],
+        display: ["Kanit", "sans-serif"],
+        kanit: ["Kanit", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       boxShadow: {
-        soft: "0 10px 30px -12px rgba(15, 31, 54, 0.18)",
         glow: "0 0 0 1px rgba(23,184,196,0.25), 0 20px 50px -20px rgba(23,184,196,0.45)",
+        soft: "0 10px 30px -12px rgba(0,0,0,0.55)",
       },
       backgroundImage: {
         "grid-fade":

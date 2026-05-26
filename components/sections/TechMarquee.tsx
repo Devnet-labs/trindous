@@ -18,7 +18,7 @@ const services = [
 
 function Pill({ children }: { children: React.ReactNode }) {
   return (
-    <span className="rounded-full border border-navy-200 bg-white px-5 py-2 text-sm font-semibold text-navy-800 shadow-soft">
+    <span className="rounded-full border border-mist/20 bg-white/[0.04] px-5 py-2 text-sm font-medium uppercase tracking-wider text-mist backdrop-blur">
       {children}
     </span>
   );
@@ -26,7 +26,7 @@ function Pill({ children }: { children: React.ReactNode }) {
 
 function DarkPill({ children }: { children: React.ReactNode }) {
   return (
-    <span className="rounded-full border border-teal-400/30 bg-navy-900/70 px-5 py-2 text-sm font-semibold text-teal-300 backdrop-blur">
+    <span className="rounded-full border border-teal-400/40 bg-teal-500/[0.08] px-5 py-2 text-sm font-medium uppercase tracking-wider text-teal-300 backdrop-blur">
       {children}
     </span>
   );
@@ -34,12 +34,12 @@ function DarkPill({ children }: { children: React.ReactNode }) {
 
 export default function TechMarquee() {
   return (
-    <section className="relative overflow-hidden border-y border-navy-100/50 bg-white/40 py-12 backdrop-blur">
+    <section className="relative overflow-hidden border-y border-mist/10 bg-ink py-14">
       <motion.p
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        className="container-px mb-6 text-center text-xs font-semibold uppercase tracking-[0.2em] text-navy-500"
+        className="container-px mb-6 text-center text-xs font-medium uppercase tracking-[0.3em] text-mist/50"
       >
         Built with a modern stack · Trusted tools
       </motion.p>

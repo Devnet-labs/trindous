@@ -1,32 +1,37 @@
-import Hero from "@/components/sections/Hero";
+import Hero from "@/components/sections2/Hero";
+import Marquee from "@/components/sections2/Marquee";
+import AboutOld from "@/components/sections2/AboutOld";
+import ServicesOld from "@/components/sections2/ServicesOld";
+import WorkOverviewOld from "@/components/sections2/WorkOverviewOld";
+import RedevelopmentOld from "@/components/sections2/RedevelopmentOld";
+import ProcessOld from "@/components/sections2/ProcessOld";
+import WhyUsOld from "@/components/sections2/WhyUsOld";
+import Projects from "@/components/sections2/Projects";
+import ContactDark from "@/components/sections2/Contact";
 import Stats from "@/components/sections/Stats";
 import TechMarquee from "@/components/sections/TechMarquee";
-import About from "@/components/sections/About";
-import Services from "@/components/sections/Services";
-import WorkOverview from "@/components/sections/WorkOverview";
-import Redevelopment from "@/components/sections/Redevelopment";
-import Process from "@/components/sections/Process";
-import WhyUs from "@/components/sections/WhyUs";
-import Contact from "@/components/sections/Contact";
-import BeamDivider from "@/components/fx/BeamDivider";
 
 export default function HomePage() {
   return (
     <>
       <Hero />
       <Stats />
+      <Marquee />
+
+      {/* Dark-themed content sections (old content, redesigned for theme) */}
+      <AboutOld />
+      <ServicesOld />
+      <WorkOverviewOld />
+      <RedevelopmentOld />
+      <ProcessOld />
+      <WhyUsOld />
+
+      {/* Tech stack marquee */}
       <TechMarquee />
-      <About />
-      <BeamDivider />
-      <Services />
-      <BeamDivider />
-      <WorkOverview />
-      <Redevelopment />
-      <BeamDivider />
-      <Process />
-      <WhyUs />
-      <BeamDivider />
-      <Contact />
+
+      {/* Projects sticky stack + dark contact */}
+      <Projects />
+      <ContactDark />
     </>
   );
 }

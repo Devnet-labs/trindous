@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import ProductsHero from "@/components/sections/ProductsHero";
-import ProductsGrid from "@/components/sections/ProductsGrid";
-import CustomPlatforms from "@/components/sections/CustomPlatforms";
-import AIAutomations from "@/components/sections/AIAutomations";
-import BeamDivider from "@/components/fx/BeamDivider";
+import NavbarSlim from "@/components/NavbarSlim";
+import ProductsHeroDark from "@/components/sections2/ProductsHeroDark";
+import ProductsGridDark from "@/components/sections2/ProductsGridDark";
+import CustomPlatformsDark from "@/components/sections2/CustomPlatformsDark";
+import AIAutomationsDark from "@/components/sections2/AIAutomationsDark";
 
 export const metadata: Metadata = {
   title: "Products — Trinodus Technologies",
@@ -14,12 +14,11 @@ export const metadata: Metadata = {
 export default function ProductsPage() {
   return (
     <>
-      <ProductsHero />
-      <BeamDivider />
-      <ProductsGrid />
-      <CustomPlatforms />
-      <BeamDivider />
-      <AIAutomations />
+      <NavbarSlim />
+      <ProductsHeroDark />
+      <ProductsGridDark />
+      <CustomPlatformsDark />
+      <AIAutomationsDark />
     </>
   );
 }

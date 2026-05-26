@@ -17,7 +17,7 @@ export default function Stats() {
     <section className="relative overflow-hidden py-14">
       <div className="container-px">
         <Reveal>
-          <div className="relative rounded-3xl border border-navy-100 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-950 p-8 text-white shadow-glow md:p-10">
+          <div className="relative rounded-3xl border border-mist/15 bg-gradient-to-br from-navy-950 via-navy-900 to-navy-950 p-8 text-white shadow-glow md:p-10">
             {/* moving sheen */}
             <motion.div
               aria-hidden
