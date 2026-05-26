@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "WhatsApp Lead Qualification Bot",
+    "category": "WhatsApp Automation",
+    "industry": "Sales/Service Businesses"
+  },
+  {
+    "id": 2,
+    "name": "WhatsApp Appointment Booking System",
+    "category": "WhatsApp Automation",
+    "industry": "Clinics/Salons"
+  },
+  {
+    "id": 3,
+    "name": "WhatsApp Customer Support Agent",
+    "category": "WhatsApp Automation",
+    "industry": "All Businesses"
+  },
+  {
+    "id": 4,
+    "name": "WhatsApp Order Status Bot",
+    "category": "WhatsApp Automation",
+    "industry": "E-commerce"
+  },
+  {
+    "id": 5,
+    "name": "WhatsApp FAQ Auto-Responder",
+    "category": "WhatsApp Automation",
+    "industry": "All Businesses"
+  },
+  {
+    "id": 6,
+    "name": "WhatsApp Feedback Collection Bot",
+    "category": "WhatsApp Automation",
+    "industry": "Service Businesses"
+  },
+  {
+    "id": 7,
+    "name": "WhatsApp Payment Reminder Bot",
+    "category": "WhatsApp Automation",
+    "industry": "Finance/Services"
+  },
+  {
+    "id": 8,
+    "name": "WhatsApp Invoice Sender Bot",
+    "category": "WhatsApp Automation",
+    "industry": "Finance"
+  },
+  {
+    "id": 9,
+    "name": "WhatsApp Event Registration Bot",
+    "category": "WhatsApp Automation",
+    "industry": "Events"
+  },
+  {
+    "id": 10,
+    "name": "WhatsApp Multi-language Chatbot",
+    "category": "WhatsApp Automation",
+    "industry": "Global Businesses"
+  },
+  {
+    "id": 11,
+    "name": "WhatsApp Product Catalog Assistant",
+    "category": "WhatsApp Automation",
+    "industry": "Retail"
+  },
+  {
+    "id": 12,
+    "name": "WhatsApp Delivery Tracking Bot",
+    "category": "WhatsApp Automation",
+    "industry": "Logistics"
+  },
+  {
+    "id": 13,
+    "name": "WhatsApp Abandoned Cart Recovery Bot",
+    "category": "WhatsApp Automation",
+    "industry": "E-commerce"
+  },
+  {
+    "id": 14,
+    "name": "WhatsApp Customer Re-engagement Bot",
+    "category": "WhatsApp Automation",
+    "industry": "Marketing"
+  },
+  {
+    "id": 15,
+    "name": "WhatsApp CRM Sync Automation",
+    "category": "WhatsApp Automation",
+    "industry": "Sales Teams"
+  },
+  {
+    "id": 16,
+    "name": "Website Lead Capture + AI Qualification",
+    "category": "Lead Automation",
+    "industry": "Marketing Agencies"
+  },
+  {
+    "id": 17,
+    "name": "AI Lead Scoring System",
+    "category": "Lead Automation",
+    "industry": "Sales Teams"
+  },
+  {
+    "id": 18,
+    "name": "Automated Sales Follow-up Emails",
+    "category": "Lead Automation",
+    "industry": "B2B Sales"
+  },
+  {
+    "id": 19,
+    "name": "LinkedIn Lead Outreach Generator",
+    "category": "Lead Automation",
+    "industry": "Recruitment/Sales"
+  },
+  {
+    "id": 20,
+    "name": "Cold Email Personalization Engine",
+    "category": "Lead Automation",
+    "industry": "Marketing"
+  },
+  {
+    "id": 21,
+    "name": "Proposal Generator from Lead Data",
+    "category": "Lead Automation",
+    "industry": "Agencies"
+  },
+  {
+    "id": 22,
+    "name": "CRM Auto Data Entry Bot",
+    "category": "Lead Automation",
+    "industry": "Sales Teams"
+  },
+  {
+    "id": 23,
+    "name": "Sales Meeting Summary Generator",
+    "category": "Lead Automation",
+    "industry": "Sales Teams"
+  },
+  {
+    "id": 24,
+    "name": "AI Deal Pipeline Assistant",
+    "category": "Lead Automation",
+    "industry": "Sales Teams"
+  },
+  {
+    "id": 25,
+    "name": "Lead Enrichment from Website Data",
+    "category": "Lead Automation",
+    "industry": "B2B"
+  },
+  {
+    "id": 26,
+    "name": "AI Demo Scheduling Bot",
+    "category": "Lead Automation",
+    "industry": "Sales"
+  },
+  {
+    "id": 27,
+    "name": "Auto Sales Reminder System",
+    "category": "Lead Automation",
+    "industry": "Sales"
+  },
+  {
+    "id": 28,
+    "name": "AI Quote Generator",
+    "category": "Lead Automation",
+    "industry": "Service Businesses"
+  },
+  {
+    "id": 29,
+    "name": "Client Onboarding Workflow",
+    "category": "Lead Automation",
+    "industry": "Agencies"
+  },
+  {
+    "id": 30,
+    "name": "AI Sales Forecast Generator",
+    "category": "Lead Automation",
+    "industry": "Sales Teams"
+  },
+  {
+    "id": 31,
+    "name": "AI Support Ticket Classifier",
+    "category": "Customer Support",
+    "industry": "SaaS"
+  },
+  {
+    "id": 32,
+    "name": "Email Support Auto-Reply Agent",
+    "category": "Customer Support",
+    "industry": "Support Teams"
+  },
+  {
+    "id": 33,
+    "name": "Helpdesk AI Assistant",
+    "category": "Customer Support",
+    "industry": "All Businesses"
+  },
+  {
+    "id": 34,
+    "name": "Customer Complaint Analyzer",
+    "category": "Customer Support",
+    "industry": "Enterprises"
+  },
+  {
+    "id": 35,
+    "name": "AI Escalation Detection",
+    "category": "Customer Support",
+    "industry": "Support Teams"
+  },
+  {
+    "id": 36,
+    "name": "Support Conversation Summarizer",
+    "category": "Customer Support",
+    "industry": "Call Centers"
+  },
+  {
+    "id": 37,
+    "name": "AI SLA Monitoring Bot",
+    "category": "Customer Support",
+    "industry": "Support Teams"
+  },
+  {
+    "id": 38,
+    "name": "Customer Satisfaction Analyzer",
+    "category": "Customer Support",
+    "industry": "Support Teams"
+  },
+  {
+    "id": 39,
+    "name": "AI Support Knowledge Bot",
+    "category": "Customer Support",
+    "industry": "Support Teams"
+  },
+  {
+    "id": 40,
+    "name": "Refund Processing Assistant",
+    "category": "Customer Support",
+    "industry": "E-commerce"
+  },
+  {
+    "id": 41,
+    "name": "Invoice Data Extraction System",
+    "category": "Document Processing",
+    "industry": "Finance"
+  },
+  {
+    "id": 42,
+    "name": "Receipt Processing Automation",
+    "category": "Document Processing",
+    "industry": "Accounting"
+  },
+  {
+    "id": 43,
+    "name": "Contract Review Assistant",
+    "category": "Document Processing",
+    "industry": "Legal"
+  },
+  {
+    "id": 44,
+    "name": "Legal Document Summarizer",
+    "category": "Document Processing",
+    "industry": "Legal"
+  },
+  {
+    "id": 45,
+    "name": "Resume Screening System",
+    "category": "Document Processing",
+    "industry": "HR"
+  },
+  {
+    "id": 46,
+    "name": "KYC Document Validation",
+    "category": "Document Processing",
+    "industry": "Banking"
+  },
+  {
+    "id": 47,
+    "name": "Insurance Claim Processing",
+    "category": "Document Processing",
+    "industry": "Insurance"
+  },
+  {
+    "id": 48,
+    "name": "Purchase Order Processor",
+    "category": "Document Processing",
+    "industry": "Procurement"
+  },
+  {
+    "id": 49,
+    "name": "Bank Statement Analyzer",
+    "category": "Document Processing",
+    "industry": "Finance"
+  },
+  {
+    "id": 50,
+    "name": "Document Classification System",
+    "category": "Document Processing",
+    "industry": "Enterprises"
+  },
+  {
+    "id": 51,
+    "name": "AI Social Media Content Generator",
+    "category": "Marketing",
+    "industry": "Agencies"
+  },
+  {
+    "id": 52,
+    "name": "AI Instagram Caption Generator",
+    "category": "Marketing",
+    "industry": "Marketing"
+  },
+  {
+    "id": 53,
+    "name": "Blog Article Generator",
+    "category": "Marketing",
+    "industry": "Content Teams"
+  },
+  {
+    "id": 54,
+    "name": "SEO Content Automation",
+    "category": "Marketing",
+    "industry": "SEO Agencies"
+  },
+  {
+    "id": 55,
+    "name": "Ad Copy Generator",
+    "category": "Marketing",
+    "industry": "Marketing"
+  },
+  {
+    "id": 56,
+    "name": "Email Campaign Generator",
+    "category": "Marketing",
+    "industry": "Marketing"
+  },
+  {
+    "id": 57,
+    "name": "AI Newsletter Generator",
+    "category": "Marketing",
+    "industry": "Marketing"
+  },
+  {
+    "id": 58,
+    "name": "Landing Page Content Generator",
+    "category": "Marketing",
+    "industry": "Marketing"
+  },
+  {
+    "id": 59,
+    "name": "Marketing Calendar Generator",
+    "category": "Marketing",
+    "industry": "Marketing"
+  },
+  {
+    "id": 60,
+    "name": "Brand Voice Assistant",
+    "category": "Marketing",
+    "industry": "Marketing"
+  },
+  {
+    "id": 61,
+    "name": "Product Description Generator",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 62,
+    "name": "Product Review Analyzer",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 63,
+    "name": "Customer Review Reply Bot",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 64,
+    "name": "AI Product Recommendation Engine",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 65,
+    "name": "Order Processing Automation",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 66,
+    "name": "Inventory Alert Bot",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 67,
+    "name": "AI Demand Forecasting",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 68,
+    "name": "Pricing Optimization Assistant",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 69,
+    "name": "Returns Processing Bot",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 70,
+    "name": "Supplier Communication Bot",
+    "category": "E-commerce",
+    "industry": "Retail"
+  },
+  {
+    "id": 71,
+    "name": "Resume Screening AI",
+    "category": "HR",
+    "industry": "Recruitment"
+  },
+  {
+    "id": 72,
+    "name": "Candidate Ranking System",
+    "category": "HR",
+    "industry": "Recruitment"
+  },
+  {
+    "id": 73,
+    "name": "Interview Scheduling Bot",
+    "category": "HR",
+    "industry": "Recruitment"
+  },
+  {
+    "id": 74,
+    "name": "Interview Question Generator",
+    "category": "HR",
+    "industry": "Recruitment"
+  },
+  {
+    "id": 75,
+    "name": "Offer Letter Generator",
+    "category": "HR",
+    "industry": "Recruitment"
+  },
+  {
+    "id": 76,
+    "name": "Employee Onboarding Assistant",
+    "category": "HR",
+    "industry": "Corporate"
+  },
+  {
+    "id": 77,
+    "name": "Attendance Reminder Bot",
+    "category": "HR",
+    "industry": "Corporate"
+  },
+  {
+    "id": 78,
+    "name": "Performance Review Writer",
+    "category": "HR",
+    "industry": "Corporate"
+  },
+  {
+    "id": 79,
+    "name": "Exit Interview Analyzer",
+    "category": "HR",
+    "industry": "Corporate"
+  },
+  {
+    "id": 80,
+    "name": "Training Content Generator",
+    "category": "HR",
+    "industry": "Corporate"
+  },
+  {
+    "id": 81,
+    "name": "Meeting Notes Generator",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 82,
+    "name": "Task Creation from Emails",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 83,
+    "name": "Calendar Scheduling Assistant",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 84,
+    "name": "Daily Team Summary Generator",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 85,
+    "name": "Project Status Reporter",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 86,
+    "name": "AI Knowledge Base Bot",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 87,
+    "name": "Internal Helpdesk Bot",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 88,
+    "name": "Policy Q&A Assistant",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 89,
+    "name": "Meeting Agenda Generator",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 90,
+    "name": "Decision Summary Generator",
+    "category": "Productivity",
+    "industry": "Corporate"
+  },
+  {
+    "id": 91,
+    "name": "Clinic Appointment Automation",
+    "category": "Industry Specific",
+    "industry": "Healthcare"
+  },
+  {
+    "id": 92,
+    "name": "Hospital Patient Query Bot",
+    "category": "Industry Specific",
+    "industry": "Healthcare"
+  },
+  {
+    "id": 93,
+    "name": "Real Estate Lead Bot",
+    "category": "Industry Specific",
+    "industry": "Real Estate"
+  },
+  {
+    "id": 94,
+    "name": "Property Recommendation Engine",
+    "category": "Industry Specific",
+    "industry": "Real Estate"
+  },
+  {
+    "id": 95,
+    "name": "School Admission Automation",
+    "category": "Industry Specific",
+    "industry": "Education"
+  },
+  {
+    "id": 96,
+    "name": "Hotel Booking Assistant",
+    "category": "Industry Specific",
+    "industry": "Hospitality"
+  },
+  {
+    "id": 97,
+    "name": "Restaurant Table Booking Bot",
+    "category": "Industry Specific",
+    "industry": "Hospitality"
+  },
+  {
+    "id": 98,
+    "name": "Logistics Delivery ETA Bot",
+    "category": "Industry Specific",
+    "industry": "Logistics"
+  },
+  {
+    "id": 99,
+    "name": "Manufacturing Maintenance Predictor",
+    "category": "Industry Specific",
+    "industry": "Manufacturing"
+  },
+  {
+    "id": 100,
+    "name": "Insurance Claim Assistant",
+    "category": "Industry Specific",
+    "industry": "Insurance"
+  }
+]
