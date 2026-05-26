@@ -1,4 +1,6 @@
 import Hero from "@/components/sections/Hero";
+import Stats from "@/components/sections/Stats";
+import TechMarquee from "@/components/sections/TechMarquee";
 import About from "@/components/sections/About";
 import Services from "@/components/sections/Services";
 import WorkOverview from "@/components/sections/WorkOverview";
@@ -11,6 +13,8 @@ export default function HomePage() {
   return (
     <>
       <Hero />
+      <Stats />
+      <TechMarquee />
       <About />
       <Services />
       <WorkOverview />
